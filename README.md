@@ -17,3 +17,6 @@ method in laravel whenever a client or client connect to the socket server to re
  reverb -> for third party provider
 
  php artisan migrate:fresh --seed
+
+ Run the websocket server
+ php artisan reverb:start --debug
