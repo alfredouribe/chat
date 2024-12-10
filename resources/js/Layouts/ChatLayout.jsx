@@ -15,8 +15,8 @@ const ChatLayout = ({ children }) => {
 
     const isUserOnline = (userId) => onlineUsers[userId]
 
-    console.log('conversations', conversations)
-    console.log('selectedConversation', selectedConversation)
+    // console.log('conversations', conversations)
+    // console.log('selectedConversation', selectedConversation)
 
     const onSearch = (ev) => {
         const search = ev.target.value.toLowerCase()
@@ -110,7 +110,7 @@ const ChatLayout = ({ children }) => {
                         selectedConversation ? "-ml-[100%] sm:ml-0" : ""
                     }`}
                 >
-                    <div className="flex items-center justify-between py-2 px-3 text-xl font-medium">
+                    <div className="flex items-center justify-between py-2 px-3 text-xl font-medium text-gray-200">
                         My Conversations
                         <div
                             className="tooltop tooltip-left"

@@ -20,3 +20,16 @@ method in laravel whenever a client or client connect to the socket server to re
 
  Run the websocket server
  php artisan reverb:start --debug
+
+
+ #####
+Clone the project
+Run git clone
+Run composer install.
+Run cp .env.example .env.
+Run php artisan key:generate.
+Run php artisan migrate.
+npm i
+Run php artisan serve.
+npm run dev
+ php artisan reverb:start --debug
