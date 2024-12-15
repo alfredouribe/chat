@@ -15,13 +15,14 @@ const MessageItem = ({message}) => {
                 )
             }
         >
-            {/* {<UserAvatar user={message.sender} />} */}
+            {<UserAvatar user={message.sender} />}
 
             <div className="chat-header">
                 {message.sender_id !== currentUser.id
-                    ? message.sender_name
+                    ? message.sender.name + ""
                     : ""
                 }
+                
 
                 <time className="text-xs opacity-50 ml-2">
                     {formatMessageDateLong(message.created_at)}
