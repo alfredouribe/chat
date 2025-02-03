@@ -32,4 +32,4 @@ Run php artisan migrate.
 npm i
 Run php artisan serve.
 npm run dev
- php artisan reverb:start --debug
+php artisan reverb:start --debug
