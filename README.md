@@ -26,7 +26,8 @@ method in laravel whenever a client or client connect to the socket server to re
 Clone the project
 Run git clone
 Run composer install.
-Run cp .env.example .env.
+Run cp .env.example .env
+php artisan reverb:install 
 Run php artisan key:generate.
 Run php artisan migrate.
 npm i
